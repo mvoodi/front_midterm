@@ -78,3 +78,41 @@ body {
   font-weight: 700;
   color: #000;
 }
+.passenger-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+  margin-top: 10px;
+}
+
+.passenger-details h4 {
+  font-size: 10px;
+  color: #888;
+  font-weight: 700;
+}
+
+.passenger-details p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side div {
+  margin-bottom: 8px;
+}
+
+.qr-code {
+  margin-top: -5px;
+}
+
+.qr-code img {
+  width: 100px;
+  height: 100px;
+}
