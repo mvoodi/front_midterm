@@ -24,3 +24,34 @@ body {
   padding: 30px;
   width: 300px;
 }
+.cities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+.city {
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+.city h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #2a68af;
+}
+
+.city p {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.separator {
+  width: 10px;
+  height: 2px;
+  background-color: #407cff4f;
+}
